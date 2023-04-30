@@ -53,23 +53,23 @@ public class User {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getUsername() {
         return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setId() {
-        this.id = id;
-    }
-
-    public void setUsername() {
-        this.username = username;
-    }
-
-    public void setPassword() {
+    public void setPassword(String password) {
         this.password = password;
     }
 
